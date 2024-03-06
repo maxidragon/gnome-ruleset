@@ -1,6 +1,10 @@
 repo_url: https://github.com/maxidragon/gnome-ruleset
 git_prefix: github.com
 identifier: maxidragon/gnome-ruleset
-rules: {}
+rules:
+    gnome_exists: ./rules/gnome_exists.lua
+    gnome_version: ./rules/gnome_version.lua
+    install_gnome: ./rules/install_gnome.lua
+    readdir: ./rules/readdir.lua
 description: ""
 branch: ""
